@@ -8,9 +8,9 @@
 // 1.3 The commas make that the sentence is quite hard to read. Find a way to remove the commas from the string and replace them with spaces.
 // 1.4 Log myString to see if you succeeded.
 
-let myString = "hello,this,is,a,difficult,to,read,sentence";
+// let myString = "hello,this,is,a,difficult,to,read,sentence";
 
-console.log(myString.replace(/,/g ," "));
+// console.log(myString.replace(/,/g ," "));
 
 // 2. Arrays!
 
@@ -39,8 +39,11 @@ favoriteAnimals[1] = "meerkat";
 console.log(favoriteAnimals);
 console.log(`this array (favoriteAnimals) of ${favoriteAnimals.length} is awesone`);
 
-// console.log("I just changed the data inside the array by adding with array methods new data to my array");
+console.log("I just changed the data inside the array by adding with array methods new data to my array");
 
-// favoriteAnimals.pop();
+favoriteAnimals.splice(2, 1);
 console.log(favoriteAnimals);
+
+console.log("the index of meerkat in favorite animals is " + favoriteAnimals.indexOf("meerkat"));
+
 
