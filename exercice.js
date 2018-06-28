@@ -79,3 +79,6 @@ function vehicleType(blue, M, C) {
 }
 var vehicle = vehicleType("a blue", " Motorbike", " Car");
 console.log(vehicle);
+
+//5. Can you write the following without the if statement, but with just as a single line with console.log(...);?
+console.log(3 === 3 ? "yes" : "no");
