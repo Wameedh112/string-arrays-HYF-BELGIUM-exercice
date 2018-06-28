@@ -89,3 +89,7 @@ function vehicleType(blue, M, C, age) {
 }
 var vehicle = vehicleType("a blue", " Motorbike", " Car", " used");
 console.log(vehicle);
+
+//7. Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
+let array = ["motorbike", "car", "caravan", "bike", "bus"]
+console.log(array[2]); //8. 
