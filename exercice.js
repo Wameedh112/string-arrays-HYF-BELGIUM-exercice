@@ -96,5 +96,12 @@ console.log(array[2]); //8. How do you get the third element from that list?
 
 //9. Change the function vehicle to use the list of question 7. So that vehicle("green", 3, 1) prints "a green new bike".
 
-
-
+function vehicle2(color, age, Ar) {
+    return (color + age + Ar[3]);
+}
+let array2 = vehicle2("a green ", "new ", ["motorbike", "car", "caravan", "bike", "bus"]);
+console.log(array2);
+//i dont know if its the perfect solution or not 
+//but instead of changing the vehicle function i made a new one 
+//to see how it works with an array 
+//please let me know if this answer not sufficient 
