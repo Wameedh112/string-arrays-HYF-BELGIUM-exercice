@@ -46,4 +46,11 @@ console.log(favoriteAnimals);
 
 console.log("the index of meerkat in favorite animals is " + favoriteAnimals.indexOf("meerkat"));
 
+//starting to work on the second excercise 
+//forked Eduardo's repo
+//made my own branch
+//homework ref. https://github.com/HackYourFuture/JavaScript1/blob/master/Week3/MAKEME.md
+// More JavaScript 
+
+//1. 
 
