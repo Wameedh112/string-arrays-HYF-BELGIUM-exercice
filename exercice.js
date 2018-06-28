@@ -71,4 +71,11 @@ function fun(name, age) {
     return ("My name is " + name + " and i am " + age);
 }
 var me = fun("Mahmoud", 28);
-alert(me);
+console.log(me);
+
+//4. Create a function named vehicleType that receives a color, and a code, 1 for car, 2 for motorbike. And prints 'a blue motorbike' for example when called as vehicleType("blue", 2)
+function vehicleType(blue, M, C) {
+    return (blue + M)
+}
+var vehicle = vehicleType("a blue", " Motorbike", " Car");
+console.log(vehicle);
