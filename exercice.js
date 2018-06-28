@@ -105,3 +105,10 @@ console.log(array2);
 //but instead of changing the vehicle function i made a new one 
 //to see how it works with an array 
 //please let me know if this answer not sufficient 
+
+// 10. Use the list of vehicles to write an advertisement. So that it prints something like: "Amazing Joe's Garage, we service cars, motorbikes, caravans and bikes.". (Hint: use a for loop.)
+var x = array.length;
+for(let i = 0; i < x; i++) {
+    var text = "\"Amazing Joe's Garage, we service " + array[i] + " and " + array[3]+"s" + ".\"";
+    console.log(text);
+}
