@@ -120,4 +120,36 @@ for(let i = 0; i < x; i++) {
 //14. Add a property to the object you just created that contains the languages that they have taught you.
 var teachers = { Miet:"html", Nick:"css", Rob:"js", Claudio:"git" }; 
 
+//15. Write some code to test two arrays for equality using == and ===. Test the following:
+let f = [1,2,3];
+let y = [1,2,3];
+let z = y;
 
+if (f == y) {
+    console.log(true);  //i think its true before i run it, because for js they look the same
+} else { console.log(false);
+}
+
+if (f === y) {
+    console.log(true);
+//it will be true as they curry the same value and we are using ===
+} else { 
+    console.log(false);
+}
+
+
+if (z == y) {
+//its true cuz the last variable we gave an order to make y = z
+//lets see xD 
+console.log(true);
+} else { console.log(false);
+}
+
+
+if (z == f) {
+// i think this one will not be true as we had a command to make y = z 
+// so js will not consider y == z == f (am not really sure)
+console.log(true);
+} else { console.log(false);
+}
+//well i am mistaken in the first 2, such a shame :/ i will read more about it till i figureout the reason
