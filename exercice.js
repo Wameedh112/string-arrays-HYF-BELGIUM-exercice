@@ -58,3 +58,11 @@ function add(first, second, third) {
 }
 var sum = add(1, 2, 3);
 console.log(sum);
+
+//2. Create a function named colorCar that receives a color, and prints out, 'a red car' for example.
+function colorCar(color) {
+    return color;
+}
+var car = colorCar("'a red car'");
+console.log(car);
+
