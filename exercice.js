@@ -112,3 +112,12 @@ for(let i = 0; i < x; i++) {
     var text = "\"Amazing Joe's Garage, we service " + array[i] + " and " + array[3]+"s" + ".\"";
     console.log(text);
 }
+
+//11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
+
+//12. Create an empty object.
+//13. Create an object that contains the teachers that you have had so far for the different modules.
+//14. Add a property to the object you just created that contains the languages that they have taught you.
+var teachers = { Miet:"html", Nick:"css", Rob:"js", Claudio:"git" }; 
+
+
