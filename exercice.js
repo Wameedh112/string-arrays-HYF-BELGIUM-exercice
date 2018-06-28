@@ -52,5 +52,9 @@ console.log("the index of meerkat in favorite animals is " + favoriteAnimals.ind
 //homework ref. https://github.com/HackYourFuture/JavaScript1/blob/master/Week3/MAKEME.md
 // More JavaScript 
 
-//1. 
-
+//1. Create a function that takes 3 arguments and returns the sum of the these arguments.
+function add(first, second, third) {
+    return first+second+third;
+}
+var sum = add(1, 2, 3);
+console.log(sum);
