@@ -77,19 +77,24 @@ console.log(me);
 function vehicleType(blue, M, C) {
     return (blue + M)
 }
-var vehicle = vehicleType("a blue", " Motorbike", " Car");
-console.log(vehicle);
+var vehicles = vehicleType("a blue", " Motorbike", " Car");
+console.log(vehicles);
 
 //5. Can you write the following without the if statement, but with just as a single line with console.log(...);?
 console.log(3 === 3 ? "yes" : "no");
 
 //6. Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
-function vehicleType(blue, M, C, age) {
+function vehicle(blue, M, C, age) {
     return (blue + age + C)
 }
-var vehicle = vehicleType("a blue", " Motorbike", " Car", " used");
-console.log(vehicle);
+var transPortation = vehicle("a blue", " Motorbike", " Car", " used");
+console.log(transPortation);
 
 //7. Make a list of vehicles, you can add "motorbike", "caravan", "bike", or more.
 let array = ["motorbike", "car", "caravan", "bike", "bus"]
-console.log(array[2]); //8. 
+console.log(array[2]); //8. How do you get the third element from that list?
+
+//9. Change the function vehicle to use the list of question 7. So that vehicle("green", 3, 1) prints "a green new bike".
+
+
+
