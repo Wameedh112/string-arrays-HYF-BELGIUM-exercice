@@ -82,3 +82,10 @@ console.log(vehicle);
 
 //5. Can you write the following without the if statement, but with just as a single line with console.log(...);?
 console.log(3 === 3 ? "yes" : "no");
+
+//6. Create a function called vehicle, like before, but takes another parameter called age, so that vehicle("blue", 1, 5) prints 'a blue used car'
+function vehicleType(blue, M, C, age) {
+    return (blue + age + C)
+}
+var vehicle = vehicleType("a blue", " Motorbike", " Car", " used");
+console.log(vehicle);
