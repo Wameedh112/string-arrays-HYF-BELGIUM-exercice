@@ -66,3 +66,9 @@ function colorCar(color) {
 var car = colorCar("'a red car'");
 console.log(car);
 
+//3. Create an object and a function that takes the object as a parameter and prints out all of its properties and values.
+function fun(name, age) {
+    return ("My name is " + name + " and i am " + age);
+}
+var me = fun("Mahmoud", 28);
+alert(me);
