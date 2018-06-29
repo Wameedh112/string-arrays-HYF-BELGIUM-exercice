@@ -112,6 +112,7 @@ for(let i = 0; i < x; i++) {
     var text = "\"Amazing Joe's Garage, we service " + array[i] + " and " + array[3]+"s" + ".\"";
     console.log(text);
 }
+//this one is not working, i need help with it !
 
 //11. What if you add one more vehicle to the list, can you have that added to the advertisement without changing the code for question 10?
 
@@ -153,3 +154,27 @@ console.log(true);
 } else { console.log(false);
 }
 //well i am mistaken in the first 2, such a shame :/ i will read more about it till i figureout the reason
+
+//16. Take a look at the following code:
+
+     let o1 = { foo: 'bar' };
+     let o2 = { foo: 'bar' };
+     let o3 = o2;
+//Show that changing o2 changes o3 (or not) and changing o1 changes o3(or not).
+//Does the order that you assign (o3 = o2 or o2 = o3) matter?
+console.log(o3);
+//yes it changes o3 whenever i change in o2 but it changing in o1 does not matter because js takes the commane o3 = o2 directly 
+// so from this point i think command o3 = o2 it matters 
+console.log(o1 === o2 ? "yes" : "no"); // no
+console.log(o3 === o2 ? "yes" : "no"); // yes
+
+//17. What does the following code return? (And why?)
+let bar = 42;
+typeof typeof bar;
+// it returns nothing cuz we did not give it the order to print it
+console.log(typeof typeof bar);
+//one typeof returns a num
+//typrof typeof return a string
+// i think because 2 typeof the first one it defines the value which is a number (42)
+//and the second typeof returns the definition of the word "number" which is string 
+//(this is logical thinking from my side so please correct me if am worng)
